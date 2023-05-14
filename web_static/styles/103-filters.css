@@ -1,0 +1,18 @@
+.filters {
+    background-color: #ffffff;
+    height: 70px;
+    width: 100%;
+    border: 1px solid #dddddd;
+    border-radius: 4px;
+}
+.filters:before,
+.filters:after {
+    content: "";
+    display: table;
+}
+.filters:after {
+    clear: both;
+}
+.filters {
+    *zoom: 1;
+}
